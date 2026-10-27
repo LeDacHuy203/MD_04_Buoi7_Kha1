@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+    cloud:
+      config:
+        server:
+          git:
+            uri: file:C:\Users\ldh2k\Desktop\RIKKEI\BTVN 2\MD4\Buoi7\medical-config-repo
+            default-label: main
+server:
+  port: 8888
